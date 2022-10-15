@@ -14,7 +14,7 @@ module.exports = {
   },
   viteFinal: async (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/igniteLab-DesignSystem/";
+      config.base = "/react-design-system/";
     }
     return config;
   },
